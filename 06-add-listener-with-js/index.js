@@ -2,5 +2,8 @@ window.onload = function myLoadFunction() {
 	alert("The website just finished loading!");
 	//some code here
 };
+const theGreen = document.getElementById(theGreen);
 
-//the listener function here
+theGreen.addEventListener("click", function () {
+	alert('WooHoo!')
+})
