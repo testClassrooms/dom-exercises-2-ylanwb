@@ -1,9 +1,12 @@
 // 1 - Select the section with an id of container without using querySelector.
-
+const containerById = document.getElementById('container');
 // 2 - Select the section with an id of container using querySelector.
-
+const container = document.querySelector('#container')
 // 3 - Select all of the list items with a class of "second".
-
+const second = document.querySelector(".second")
+ console.log(second)
+ console.log(container)
+ console.log(containerById)
 // OR
 
 // 4 - Select a list item with a class of third, but only the list item inside of the ol tag.

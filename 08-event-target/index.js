@@ -1,6 +1,8 @@
-window.onload = function loadFn() {
-	var containerElm = document.getElementById("container");
-	containerElm.addEventListener("click", function(event) {
-		//you code here
-	});
-};
+const firstButton = document.getElementById("btn1");
+const secondButton = document.getElementById("anchor1");
+firstButton.addEventListener("click", function () {
+  alert(firstButton.id);
+});
+secondButton.addEventListener("click", function () {
+  alert(secondButton.id);
+});
